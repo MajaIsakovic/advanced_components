@@ -8,7 +8,7 @@
     export default {
         data: function(){
             return{
-            quoteMessage: "The quote content component"
+                quoteMessage: "New quote component"
             }
         }
     }
@@ -16,15 +16,12 @@
 
 <style scoped>
     div{
-        border: 2px solid red;
-        background: #d43f3a;
+        border: 2px solid #46b8da;
+        background: #5bc0de;
         color: #fff;
         padding: 30px;
         margin: 30px auto;
         text-align: center;
         border-radius: 3px;
-    }
-    .title{
-        font-size: 24px;
     }
 </style>
