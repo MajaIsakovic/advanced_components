@@ -1,6 +1,7 @@
 <template>
-    <div>
-        <p>This is a quote</p>
+    <div> 
+        <!-- add it to the child component you want to pass content -->
+        <slot></slot>
     </div>
 </template>
 
@@ -11,7 +12,7 @@
 </script>
 
 <style scoped>
-    p{
+    div{
         border: 2px solid #ccc;
         padding: 30px;
         margin: 30px auto;
